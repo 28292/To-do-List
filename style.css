@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    margin-bottom: 15px;
+    margin-left: 5px;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    border-style: dashed;
+}
+
+input{
+    height: 2rem;
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-container input[type="checkbox"]{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
